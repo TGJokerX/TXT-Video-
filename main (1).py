@@ -38,7 +38,7 @@ credit ="@vkp0125"
 OWNER = int(os.environ.get("OWNER", 8176451634))
 try: 
     ADMINS=[] 
-    for x in (os.environ.get("ADMINS", "2032347579 8176451634").split()):  
+    for x in (os.environ.get("ADMINS", "8176451634").split()):  
         ADMINS.append(int(x)) 
 except ValueError: 
         raise Exception("Your Admins list does not contain valid integers.") 
@@ -46,8 +46,8 @@ ADMINS.append(OWNER)
 
 bot = Client("bot",    
    bot_token="",    
-   api_id= 21179966,    
-   api_hash= "d97919fb0a3c725e8bb2a25bbb37d57c"
+   api_id= 24935975,    
+   api_hash= "7807918602:AAH9U4aFxkU-kb2r09ub4L42IobR417xbRs"
 )
 
 @bot.on_message(filters.command(["start"]))    
