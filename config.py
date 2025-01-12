@@ -9,7 +9,7 @@ class Config(object):
     pass
     """
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "7635312098:AAHkcnRuxVZw5IGQoHMyNJIbtqldAfViMCc")
-    API_ID = int(os.environ["API_ID", 27673310]
-    API_HASH = os.environ["API_HASH", "d7e582814503df1f66f3befba42b7894"]
+    API_ID = int(os.environ["API_ID", 27149841]
+    API_HASH = os.environ["API_HASH", "109c63a1971283c71bc228bca5a63c6d"]
     AUTH_USERS = "6750546542"""
  
